@@ -39,3 +39,6 @@ out/
 *.zip
 *.tar.gz
 *.rar
+
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
