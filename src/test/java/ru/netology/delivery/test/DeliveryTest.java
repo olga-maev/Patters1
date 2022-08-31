@@ -37,6 +37,7 @@ class DeliveryTest {
         $("[data-test-id=agreement]").click();
         $(By.className("button")).click();
 
+
         $(".notification__content")
                 .shouldHave(text("Встреча успешно запланирована на " + firstMeetingDate))
                 .shouldBe(visible);

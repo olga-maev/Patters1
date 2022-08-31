@@ -18,7 +18,7 @@ public class DataGenerator {
     public static String generateDate(int shift) {
         // TODO: добавить логику для объявления переменной date и задания её значения, для генерации строки с датой
         // Вы можете использовать класс LocalDate и его методы для получения и форматирования даты
-        String date = LocalDate.now().plusDays(shift).format(DateTimeFormatter.ofPattern("dd.mm.yyyy"));
+        String date = LocalDate.now().plusDays(shift).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
 
         return date;
     }
